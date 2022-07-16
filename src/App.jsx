@@ -5,6 +5,8 @@ import Formulario from './componentes/Formulario'
 
 function App() {
   
+  const [moneda, setMoneda] = useState({})
+
   // aca declare un par de style component for the app ... 
 
   const Contenedor = styled.div`
