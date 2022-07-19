@@ -24,7 +24,7 @@ margin-top: 20px;
 `
 
 
-function Formulario() {
+function Formulario({setMoneda}) {
 
     const [cripto, setCripto] = useState([])
     const [error, setError]= useState(false)
@@ -66,6 +66,9 @@ const handleSubmit = (e) => {
         return
     }
     setError(false)
+    setMoneda({
+         Monedastate, criptomoneda 
+    })
 }
 
   return (
